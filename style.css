@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace,sans-serif;
+}
+/* Styling for the background image container */
+#imgContainer {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    overflow: hidden;/* Hiding overflow to prevent scrollbars */
+    z-index: -1;
+    
+}
+/* Styling for the background image */
+img {
+    height: auto; /* Making sure the image height adjusts proportionally */
+    width: 100%;
+    object-fit: cover;/* Covering the container while preserving aspect ratio */
+    
+}
+/* Centering the main heading */
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+/* Centering and styling for the button container */
+#buttonContainer {
+    text-align: center;
+    padding-top: 25px; 
+}
+/* Styling for the game buttons */
+button {
+    font-size: 20px;
+    margin: 15px;
+}
+/* Styling for the score container */
+#score {
+   display: flex;
+   justify-content: space-around;
+}
+/* General styling for headings */
+h3 {
+    text-align: center;
+    margin-top: 20px
+}
+
+/* Styling for the game display */
+#display {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+/* Styling for the user's choice */
+#userPick {
+    color: darkgreen;
+}
+
+/* Styling for the computer's choice */
+#computersPick {
+    color: red;
+}
+/* Styling for the computer's score */
+#computerScore {
+    color: red;
+}
+/* Styling for the user's score */
+#userScore{
+    color: red;
+}

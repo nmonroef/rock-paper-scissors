@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel = "stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock-Paper-Scissors</title>
 </head>
 <body>
+    <!-- Container for the background image -->
+    <div id="imgContainer" aria-hidden="true">
+       <img src="rock-paper-scissors-hand.jpg"alt="white background with mulptiple hands on each side"> 
+    </div>
+
+    <h1>WELCOME TO ROCK, PAPER, SCISSORS </h1>
+    <!-- Container for the game buttons -->
+    <div id = buttonContainer>
+        <button id = "ROCK" type="button">ROCK</button>
+        <button id = "PAPER" type="button">PAPER</button>
+        <button id = "SCISSORS" type="button">SCISSORS</button>
+    </div>
+ <!-- Container for displaying the scores -->
+    <div id= "score">
+        <h3>Computer Score:<span id ="computerScore" aria-live="polite"></span></h3>
+        <h3>User Score:<span id="userScore" aria-live="polite"></span></h3>
+    </div>
+   <!-- displaying the user's/computers choice-->
+    <h3 class = "boldH3">Your Choice:</h3>
+    <h3 id = "userPick" aria-live="polite"></h3>
+    <h3 class="boldH3">Computers Choice:</h3>
+    <h3 id = "computersPick" aria-live="polite"></h3>
+    <h2 id = "display" aria-live="polite"></h2>
     
+    <script src="main.js"></script>
 </body>
 </html>
